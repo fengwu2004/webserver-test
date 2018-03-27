@@ -3,7 +3,7 @@ import jwt
 secretKey = 'jsdjfiofjenwkdsjlskjslkdfjsdlfk'
 
 class TokenManager(object):
-    
+
     def __init__(self):
     
         self.count = 0
