@@ -10,7 +10,3 @@ class RequestBaseManager(tornado.web.RequestHandler):
         self.set_header("Access-Control-Allow-Headers", "x-requested-with")
         
         self.set_header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS')
-        
-    def checkToken(self):
-        
-        return True
